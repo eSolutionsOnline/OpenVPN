@@ -30,8 +30,7 @@ echo "echo ' \ \  \ \  \ \   ____\ \  \_|/_\ \  \ \  \ \  \/  / / \ \   ____\ \ 
 echo "echo '  \ \  \ \  \ \  \___|\ \  \_|\ \ \  \ \  \ \    / /   \ \  \___|\ \  \ \  \   '" >> ~/.profile
 echo "echo '   \ \_______\ \__\    \ \_______\ \__\ \__\ \__/ /     \ \__\    \ \__\ \__\  '" >> ~/.profile
 echo "echo '    \|_______|\|__|     \|_______|\|__|\|__|\|__|/       \|__|     \|__|\|__|  '" >> ~/.profile
-echo 'cowsay "To configure the OpenVPN server run ./openvpn.sh the connection files are stored in /connections mooooooooo"' >> ~/.profile
-
+echo 'cowsay "To configure the OpenVPN server run sudo ./openvpn the connection files are stored in /connections mooooooooo"' >> ~/.profile
 
 echo "Add an SSH key"
 read -p "Would you like to add an SSH key? [y/N]? "

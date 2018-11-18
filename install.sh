@@ -23,8 +23,9 @@ mkdir connections
 wget https://raw.githubusercontent.com/eSolutionsOnline/OpenVPN/master/core.sh -O install/core.sh
 wget https://raw.githubusercontent.com/eSolutionsOnline/OpenVPN/master/userconfig.sh -O install/userconfig.sh
 wget https://raw.githubusercontent.com/eSolutionsOnline/OpenVPN/master/openvpn-install.sh -O install/openvpn-install.sh
-wget https://raw.githubusercontent.com/eSolutionsOnline/OpenVPN/master/openvpn-config.sh -O openvpn.sh
+wget https://raw.githubusercontent.com/eSolutionsOnline/OpenVPN/master/openvpn-config.sh -O openvpn
 chmod -R 0777 install
+chmod 0777 openvpn
 chmod -R 0777 connections
 
 sudo bash $install_source"core.sh" "$user"
