@@ -1,8 +1,9 @@
 #!/bin/bash
 # wget https://raw.githubusercontent.com/eSolutionsOnline/OpenVPN/master/install.sh && chmod 0777 install.sh && ./install.sh
 
-install_source="/home/$user/install/"
 user=$USER
+install_source="/home/$user/install/"
+
 
 
 echo '.___                 __         .__  .__      _________            .__        __   '
