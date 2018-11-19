@@ -45,7 +45,7 @@ newclient () {
 	cat /etc/openvpn/easy-rsa/pki/issued/$1.crt >> ~/connections/$1.ovpn
 	echo "</cert>" >> ~/connections/$1.ovpn
 	echo "<key>" >> ~/connections/$1.ovpn
-	cat /etc/openvpn/easy-rsa/pki/private/$1.key >> ~/$1.ovpn
+	cat /etc/openvpn/easy-rsa/pki/private/$1.key >> ~/connections/$1.ovpn
 	echo "</key>" >> ~/connections/$1.ovpn
 	echo "<tls-auth>" >> ~/connections/$1.ovpn
 	cat /etc/openvpn/ta.key >> ~/connections/$1.ovpn
