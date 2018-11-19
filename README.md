@@ -11,3 +11,5 @@ You will need:
 - A non-root user with sudo access
 - The password for this account
 - A server with internet access
+
+To use the VPN on MacOS [download the client](https://openvpn.net/vpn-server-resources/connecting-to-access-server-with-macos/)
